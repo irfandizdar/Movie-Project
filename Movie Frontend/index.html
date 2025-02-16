@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Streaming Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/logooo.png" alt="Site Logo" class="logo">
+        <h1>Movie Streaming Site</h1>
+    </header>
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Pretraži filmove...">
+        <button onclick="search()">Pretraži</button>
+    </div>
+    <select id="movie-dropdown"></select>
+    <div class="button-container">
+        <button onclick="showMovies()">Filmovi</button>
+        <button onclick="showSeries()">Serije</button>
+    </div>
+    <main>
+        <section id="content-area">
+            <!-- Područje za prikaz filmova ili serija -->
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
